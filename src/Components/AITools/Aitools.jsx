@@ -2,7 +2,7 @@ import React from 'react'
 
 const Aitools = () => {
   return (
-    <div>Aitools</div>
+    <div>Cooming Soon..</div>
   )
 }
 
