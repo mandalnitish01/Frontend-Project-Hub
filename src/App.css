@@ -1,0 +1,20 @@
+
+    @media only screen and (max-width: 600px) {
+        .firstclass {
+         display: flex;
+         flex-direction: column;
+        }
+        /* nav bar media \ */
+       .navmedia{
+        display: flex;
+        flex-direction: column;
+        height:auto;
+       }
+
+      }
+
+/* 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative; */

@@ -14,28 +14,27 @@ import image10 from "../../assets/Images/tc.png";
 import image11 from "../../assets/Images/dr.png";
 import image12 from "../../assets/Images/calc.png";
 import image13 from "../../assets/Images/additiongame.png";
+
 const Project = () => {
   return (
     <div>
-      <h1 className="text-center bg-blue-400 font-sans text-3xl p-7 font-bold ">
+      <h1 className="text-center bg-blue-400 font-sans text-3xl p-7 font-bold">
         Projects Store
       </h1>
 
-      <div className="flex flex-col justify-center items-center">
-        <h1 className="text-2xl w-72 bg-slate-400 mt-4 rounded-lg text-center text-green-300 font-bold">
-          HTML CSS JS Projects{" "}
+      <div className="flex flex-col justify-center items-center px-4 md:px-10">
+        <h1 className="text-2xl w-full max-w-xs bg-slate-400 mt-4 rounded-lg text-center text-green-300 font-bold">
+          HTML CSS JS Projects
         </h1>
-        <p className="text-xl mt-6">
-          {" "}
+        <p className="text-xl mt-6 text-center">
           Here are some of my projects that I have worked on using HTML, CSS,
           and JavaScript. You can find the source code for each project below.
         </p>
       </div>
-      <div className="grid grid-cols-4 gap-4 px-[10%]  mt-4">
-        {/* card component add  */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 px-[10%] mt-4">
         <Card1
           image={image0}
-          title="My Personal portfolio"
+          title="My Personal Portfolio"
           link1="https://nitish-mandal-bca-sable-iota.vercel.app/"
           link2="https://github.com/mandalnitish01/MyPortfolio"
         />
@@ -45,64 +44,63 @@ const Project = () => {
           link1="https://tic-tac-toe-game-six-tan.vercel.app/"
           link2="https://github.com/mandalnitish01/TIC-TAC-TOE-GAME"
         />
-           <Card1
+        <Card1
           image={image13}
-          title="Addition game"
+          title="Addition Game"
           link1="https://mandalnitish01.github.io/Game/"
           link2="https://github.com/mandalnitish01/Amazing_Addition_game"
         />
-         <Card1
+        <Card1
           image={image8}
-          title="QR code genrator"
+          title="QR Code Generator"
           link1="https://mandalnitish01.github.io/qrcodegenerator-main/"
           link2="https://github.com/mandalnitish01/qrcodegenerator-main"
         />
-           <Card1
+        <Card1
           image={image9}
-          title="QR code genrator"
+          title="QR Code Generator"
           link1="https://mandalnitish01.github.io/qrcodegenerator-main/"
           link2="https://github.com/mandalnitish01/qrcodegenerator-main"
         />
-           <Card1
+        <Card1
           image={image10}
-          title="Temprature Convertor"
+          title="Temperature Converter"
           link1="https://mandalnitish01.github.io/temprature--convertor/"
           link2="https://github.com/mandalnitish01/temprature--convertor"
         />
-           <Card1
+        <Card1
           image={image11}
-          title="Dice Roller game"
+          title="Dice Roller Game"
           link1="https://mandalnitish01.github.io/Dice_roller_game/"
           link2="https://github.com/mandalnitish01/Dice_roller_game"
         />
-           <Card1
+        <Card1
           image={image12}
-          title="Basics Calculator"
+          title="Basic Calculator"
           link1="https://calc-beta-khaki.vercel.app/"
           link2="https://github.com/mandalnitish01/calc"
         />
-        
         <Card1
           image={image1}
-          title="Devloper landing page"
+          title="Developer Landing Page"
           link1="https://devloper-landing-page.vercel.app/"
           link2="https://github.com/mandalnitish01/Devloper-landing-page"
         />
         <Card1
           image={image2}
-          title="Resturant design"
+          title="Restaurant Design"
           link1="https://resturant-website-flame.vercel.app/"
           link2="https://github.com/mandalnitish01/Resturant-website"
         />
         <Card1
           image={image3}
-          title="Tribute website"
+          title="Tribute Website"
           link1="https://the-tribute-website-tau.vercel.app/"
           link2="https://github.com/mandalnitish01/The_Tribute_website"
         />
         <Card1
           image={image4}
-          title="Login form"
+          title="Login Form"
           link1="https://job-login-form-4rdl8zjpr-mandalnitish01s-projects.vercel.app/"
           link2="https://github.com/mandalnitish01/Job_login_Form"
         />
@@ -120,23 +118,21 @@ const Project = () => {
         />
       </div>
 
-      <div className="flex flex-col justify-center items-center">
-        <h1 className=" text-2xl w-72 bg-slate-400 mt-4 rounded-lg text-center text-green-300 font-bold">
-          React JS Projects{" "}
+      <div className="flex flex-col justify-center items-center px-4 md:px-10">
+        <h1 className="text-2xl w-full max-w-xs bg-slate-400 mt-4 rounded-lg text-center text-green-300 font-bold">
+          React JS Projects
         </h1>
-        <p className="text-xl mt-6">
-          {" "}
-          Here are some of my projects that I have worked on using React js. You
+        <p className="text-xl mt-6 text-center">
+          Here are some of my projects that I have worked on using React JS. You
           can find the source code for each project below.
         </p>
 
-        <p>Comming Coon</p>
-        <div className="flex gap-5">
-          <div class="h-8 w-8 bg-orange-400 rounded-full animate-bounce [animation-delay:-0.3s]"></div>
-          <div class="h-8 w-8 bg-white rounded-full animate-bounce [animation-delay:-0.15s]"></div>
-          <div class="h-8 w-8 bg-green-600 rounded-full animate-bounce"></div>
+        <p className="text-xl mt-6">Coming Soon</p>
+        <div className="flex gap-5 mt-6">
+          <div className="h-8 w-8 bg-orange-400 rounded-full animate-bounce [animation-delay:-0.3s]"></div>
+          <div className="h-8 w-8 bg-white rounded-full animate-bounce [animation-delay:-0.15s]"></div>
+          <div className="h-8 w-8 bg-green-600 rounded-full animate-bounce"></div>
         </div>
-        <div className="grid grid-cols-4 gap-4 px-[10%]  mt-4"></div>
       </div>
     </div>
   );
